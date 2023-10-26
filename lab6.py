@@ -15,7 +15,6 @@ def decode_password(password):
         decoded_password += j
     return decoded_password
 
-
 if __name__ == '__main__':
 
 
