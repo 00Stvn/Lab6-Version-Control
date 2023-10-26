@@ -1,3 +1,5 @@
+#Steven Chen
+
 def encode_password(password):
     encoded_password = ''
     for digit in password:
@@ -5,7 +7,6 @@ def encode_password(password):
         encoded_password += str(encoded_digit)
     print("Your password has been encoded and stored!\n")
     return encoded_password
-
 
 
 if __name__ == '__main__':
